@@ -1,0 +1,390 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    line-height: 1.8em;
+}
+
+/**==========Configuracion para todo lo que este en el header============*/
+header{
+    background-image: url(imagenes/fondo-header.jpg);
+    color: white; 
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-img-perfil{
+    padding: 0px;
+}
+
+#foto-perfil{
+    padding: 25px;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+#nombre{
+    text-align: center;
+    padding: 35px;
+}
+
+
+/**Cambio de temas en el header*/
+#temas{
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+h4{
+    margin-bottom: -10px;
+}
+
+i.fa-solid{
+    margin: 10px;
+}
+
+
+
+/**=======Configuracion de el aside de la izquierda==========*/
+
+aside{
+    background-color: #fff3b0;
+    width: 23%;
+    height: 686px;
+    float: left;
+}
+
+h3{
+    text-align: center;
+}
+
+div{
+    padding: 20px;
+}
+
+.datos{
+   margin-top: 35px;
+   margin-bottom: 50px;
+}
+
+
+/**==========Columna para dividir contenido==========*/
+section{
+    background-color: #9e2a2b;
+    padding-bottom: 686px;
+}
+
+
+
+/**==============Configuracion del contenido principal=============*/
+main{
+    background-color:#e9c46a;
+    float: right;
+    width: 75%;
+}
+
+.estudios span{
+    text-decoration: underline;
+}
+
+.estudios{
+    margin-bottom: -35px;
+}
+
+#resumen-perfil{
+    text-align: center;
+}
+
+.contenido{
+    margin-bottom: 20px;
+}
+
+
+/**==============Configuracion de todo el pie de pagina=============*/
+footer{
+    text-align: center;
+    padding: 25px;
+    background-color: #A7B8BF;
+}
+
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+#boton:hover{
+    background-color: red;
+}
+
+#boton:active{
+    opacity: 0.5;
+}
+
+
+/**Estilos de los botones de redes*/
+i.fa-brands, i.fa-regular{
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    color: white;
+    line-height: 45px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+#mail{
+    background-color:crimson;
+}
+
+#instagram{
+    background-color: blueviolet;
+}
+
+#github{
+    background-color: chocolate;
+}
+
+#linkedin{
+    background-color: darkcyan;
+}
+
+
+
+/**=================Configuracion de colores de los temas del header==============*/
+
+/**Color que tienen las imagenes de los temas al pasar al mouse*/
+#sol:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+
+
+#luna:hover{
+    color: #252525;
+    cursor: pointer;
+}
+
+
+
+#arbol:hover{
+    color: #588157;
+    cursor: pointer;
+}
+
+
+
+#agua:hover{
+    color: #0081a7;
+    cursor: pointer;
+}
+
+
+
+.fa-solid:active{
+    opacity: 0.5;
+}
+
+
+
+
+/**Tema oscuro*/
+.tema-oscuro{
+    background-color: #252525;
+    color: #f2f2f2;
+}
+
+.tema-oscuro-barra-izquierda{
+    background-color:#252525;
+}
+
+.tema-oscuro-main{
+    background-color:#252525;
+}
+
+.tema-oscuro-columna{
+    background-color:#343a40;
+}
+
+.tema-oscuro-footer{
+    background-color: #343a40;
+}
+
+
+
+/**Tema claro*/
+.tema-claro{
+    color: #252525;
+}
+
+.tema-claro-barra-izquierda{
+    background-color: #fff3b0;
+}
+
+.tema-claro-main{
+    background-color: #e9c46a;
+}
+
+.tema-claro-columna{
+    background-color: #9e2a2b;
+}
+
+.tema-claro-footer{
+    background-color: #A7B8BF;
+}
+
+
+
+/**Tema arbol*/
+.tema-arbol{
+    background-color:#f2f2f2;
+    color: #252525;
+}
+
+.tema-arbol-barra-izquierda{
+    background-color: #e9edc9;
+}
+
+.tema-arbol-main{
+    background-color: #a3b18a;
+}
+
+.tema-arbol-columna{
+    background-color:#588157;
+}
+
+
+
+/**Tema agua*/
+.tema-agua{
+    background-color:#f2f2f2;
+    color: #252525;
+}
+
+.tema-agua-barra-izquierda{
+    background-color: #caf0f8;
+}
+
+.tema-agua-main{
+    background-color: #90e0ef;
+}
+
+.tema-agua-columna{
+    background-color: #168aad;
+}
+
+
+
+/**========================Haciendo la web responsive===================*/
+
+/**1140px*/
+@media screen and (max-width:1140px){
+    #temas{
+        margin-left: 300px;
+    }
+}
+
+
+/**860px*/
+@media screen and (max-width:860px){
+    #temas{
+        margin-left: 100px;
+    }
+
+    #barra-izquierda{
+        height: 810px;
+    }
+
+    #columna{
+        height: 810px;
+    }
+
+    main{
+        height: 810px;
+    }
+}
+
+
+/**780px*/
+@media screen and (max-width:780px){
+    #temas{
+        margin-left: 0px;
+    }
+
+    #barra-izquierda{
+        width: 28%;
+    }
+    
+    main{
+        width: 70%;
+    }
+}
+
+
+/**600px*/
+@media screen and (max-width:600px){
+    header{
+        display:block;
+    }
+
+    #foto-perfil{
+        float: left;
+    }
+
+    #barra-izquierda{
+        width: 33%;
+        height: 930px;
+    }
+
+    #columna{
+        height: 930px;
+    }
+    
+    main{
+        width: 65%;
+        height: 930px;
+    }
+}
+
+/**474px*/
+@media screen and (max-width:474px){
+    #div-img-perfil{
+        text-align: center;
+        margin-bottom: -50px;
+    }
+
+    #foto-perfil{
+        float: none;
+    }
+
+    #barra-izquierda{
+        width: 100%;
+        height: 100%;
+    }
+
+    main{
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+
+    <!--Archivo CSS-->
+    <link rel="stylesheet" href="estilos-CV.css">
+
+    <!--Icono de la pag-->
+    <link rel="icon" href="imagenes/icono.ico">
+
+    <!--Tipografia Raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/c303c202d7.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!--===============Encabezado===================-->
+    <header>
+        <div id="div-img-perfil">
+            <img src="imagenes/foto-perfil.jpg" id="foto-perfil" alt="Foto de Perfil">
+        </div>
+        <div id="nombre">
+            <h1>Martín Medina</h1>
+            <p><strong>Desarrollador Web</strong></p>
+        </div>
+
+        <!--Temas-->
+        <nav id="temas">
+            <h4>Cambiar Tema:</h4>
+            <div>
+                 <i class="fa-solid fa-sun" id="sol"></i>
+                 <i class="fa-solid fa-moon" id="luna"></i>
+                 <i class="fa-solid fa-tree" id="arbol"></i>
+                 <i class="fa-solid fa-droplet" id="agua"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--==================Informacion al costado====================-->
+    <aside id="barra-izquierda">
+        <div class="datos">
+            <h3>Datos Personales:</h3>
+            <ul>
+                <li>Nacimiento: 20/06/1995</li>
+                <li>Nacionalidad: Argentina</li>
+                <li>Domicilio: CABA</li>
+            </ul>
+        </div>
+        <div class="datos">
+            <h3>Habilidades:</h3>
+            <ul>
+                <li>
+                    <p>Lenguajes de Programación:</p>
+                    Html - CSS - JavaScript
+                </li>
+            </ul>
+        </div>
+    
+        <div>
+            <h3>Idiomas:</h3>
+            <ul>
+                <li>Español</li>
+                <li>Inglés</li>
+                <li>Italiano</li>
+            </ul>
+        </div>
+    </aside>
+
+
+    <!--======================Informacion principal=======================-->
+    <main id="main">
+        <div>
+            <h3>PERFIL</h3>
+            <article>
+                <div id="resumen-perfil">
+                    Soy <strong>Martín Medina</strong>. Trabajo como desarrollador de front-end,<br>
+                    soy apasionado en lo que hago y estoy dispuesto a afrontar nuevos desafíos.
+                </div>
+            </article>
+        </div>
+
+
+        <div>
+            <h3>ESTUDIOS</h3>
+            <article>
+                <div class="estudios">
+                    <span>2001-2014</span> <strong>Instituto Santo Cristo</strong>
+                </div>
+                <div class="contenido">
+                    Primario y Secundario especializado en Bachillerato en Economía.
+                </div>
+
+                <div class="estudios">
+                    <span>2015-2020</span> <strong>UBA - Facultad de Ciencias Exactas y Naturales</strong>
+                </div>
+                <div class="contenido">
+                    Licenciatura en Ciencias de la Computación.
+                </div>
+            </article>
+        </div>
+
+
+        <div>
+            <h3>EXPERIENCIA</h3>
+            <article>
+                <div class="estudios">
+                    <span>2021-2023</span> <strong>Mercado Libre</strong>
+                </div>
+                <div class="contenido">
+                    Programación especializada en el desarrollo front-end de Páginas Web.
+                </div>
+            </article>
+        </div>
+    </main>
+
+
+    <!--====================Bara roja para division==============-->
+    <section id="columna"></section>
+
+
+    <!--==================Pie de pagina==============-->
+    <footer id="footer">
+        <h4>Contáctame:</h4>
+        <button type="button" id="boton">Mostrar más</button>
+
+        <br>
+
+        <div style="display: none;" id="links">
+            <a href="mailto:bruno.masucci@yahoo.com.ar" target="_blank">
+                <i class="fa-regular fa-envelope" id="mail"></i>
+            </a>
+
+            <a href="https://github.com/Bruno810" target="_blank">
+                <i class="fa-brands fa-github" id="github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/bruno-masucci-563564264/" target="_blank">
+                <i class="fa-brands fa-linkedin-in" id="linkedin"></i>
+            </a>
+
+            <a href="https://www.instagram.com/bruno.masucci/" target="_blank">
+                <i class="fa-brands fa-instagram" id="instagram"></i>
+            </a>   
+        </div>
+    </footer>
+    
+
+    <!--=================Archivo JS=======================-->
+    <script src="Script-CV.js"></script>
+</body>
+</html>
